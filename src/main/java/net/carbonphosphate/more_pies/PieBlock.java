@@ -96,6 +96,6 @@ public class PieBlock extends Block
 
      static {
         BITES = IntProperty.of("bites", 0, 3);
-        BITES_TO_SHAPE = new VoxelShape[]{Block.createCuboidShape(2.0D, 0.0D, 2.0D, 14.0D, 8.0D, 14.0D), Block.createCuboidShape(5.0D, 0.0D, 2.0D, 14.0D, 8.0D, 14.0D), Block.createCuboidShape(8.0D, 0.0D, 2.0D, 14.0D, 8.0D, 14.0D), Block.createCuboidShape(11.0D, 0.0D, 2.0D, 14.0D, 8.0D, 14.0D)};
+        BITES_TO_SHAPE = new VoxelShape[]{Block.createCuboidShape(1.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D), Block.createCuboidShape(5.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D), Block.createCuboidShape(8.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D), Block.createCuboidShape(11.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D)};
      }
 }
