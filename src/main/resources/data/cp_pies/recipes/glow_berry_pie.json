@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WSW",
+      "FFF",
+      "WEW"
+    ],
+    "key": {
+      "F": {
+        "item": "minecraft:nether_wart"
+      },
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "S": {
+        "item": "minecraft:sugar"
+      },
+      "E": {
+        "item": "minecraft:egg"
+      }
+    },
+    "result": {
+      "item": "cp_pies:glow_berry_pie"
+    }
+  }
